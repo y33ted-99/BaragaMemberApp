@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @if (User.Identity.IsAuthenticated)
+{
+    <p>User is authenticated.</p>
+}
+else
+{
+    <p>User is not authenticated.</p>
+}
+
+    <h1>Brian Mak</h1>
+    <h1>Student ID: A01306974</h1>
+    <h1>Career Ambition: I want to become a software engineer focusing on scalable backend systems.</h1>
+</div>
